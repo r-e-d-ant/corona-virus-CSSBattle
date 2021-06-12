@@ -1,0 +1,63 @@
+body {
+    background: #1A4341;
+  }
+  .outer_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main_virus {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius: 50%;
+  }
+  .boule {
+    background: #998235;
+    border-radius: 50%;
+  }
+  .boule_gr {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    left: 20px;
+  }
+  .boule_med {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    bottom: 15px;
+    left: 40px;
+  }
+  .boule_sm {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: 20px;
+    right: 20px;
+  }
+  .inkoni {
+    position: absolute;
+    border-radius: 5px;
+    background: #F3AC3C;
+    height: 10px;
+    width: 180px;
+  }
+  .inkoni_center {
+    top: 35px;
+    left: -40px;
+    transform: rotate(90deg);
+  }
+  .inkoni_right {
+    top: 50px;
+    right: -48.7px;
+    transform: rotate(30deg);
+  }
+  .inkoni_left {
+    top: 40px;
+    right: -48.7px;
+    transform: rotate(-30deg);
+  }
